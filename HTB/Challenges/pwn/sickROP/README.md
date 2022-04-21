@@ -135,3 +135,8 @@ p.interactive()
 And there we have it!
 
 
+Good links:  
+https://failingsilently.wordpress.com/2017/12/17/rop-exploit-mprotect-and-shellcode/  
+https://docs.pwntools.com/en/stable/rop/srop.html
+
+
