@@ -62,7 +62,7 @@ We can see that our RAX value is now indeed 0xf (mtproctect syscall).
 
 ## 3. Building ROP chain
 
-Next for building SigreturnFrame, we need couple more things: base address of bin and vuln() functions PTR, base address can be founded with GDB: vmmap  
+Next for building SigreturnFrame, we need couple more things: base address of bin and vuln() functions PTR, base address can be found with GDB: vmmap  
 ![baseaddr](pix/base_addr.PNG)  
 and vuln functions pointer with gdb find VULN_ADDR  
 ![vulnptr](pix/vuln_ptr.PNG)  
