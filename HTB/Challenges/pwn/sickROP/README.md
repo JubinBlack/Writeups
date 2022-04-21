@@ -37,11 +37,11 @@ Here we can see that totally can control RIP with this.
 But to be able to execute shellcode with rop chaining, we need 2 main gadgets: sigreturn syscall and syscall return.  
 
 ![gadgets](pix/gadgets.PNG)  
+Here we see syscall; ret; address 0x401014  
 As we seen before, we were able to control RAX value which is needed to call sigreturn syscall:
 ```
 sigreturn syscall gadget: rax=0xf; syscall
 ```  
-Here we see syscall; ret; address 0x401014  
 By changing our code to:
 
 ```
