@@ -33,7 +33,7 @@ p.interactive()
 ```
 
 ![rip](pix/rip_controlled.PNG)  
-Here we can see that totally can control RIP with this.  
+Here we can see that we are totally able to control RIP with this.  
 But to be able to execute shellcode with rop chaining, we need 2 main gadgets: sigreturn syscall and syscall return.  
 
 ![gadgets](pix/gadgets.PNG)  
